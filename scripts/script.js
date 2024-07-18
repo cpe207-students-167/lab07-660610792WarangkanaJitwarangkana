@@ -48,7 +48,7 @@ ConfInput.onkeyup = () => {
 // add callback function for submit button.
 submitBtn.onclick = () => {
   isFirstNameOk = false;
-  isFirstNameOk = false;
+  isFirstNameOk = false; 
   isLastNameOk = false;
   isEmailOk = false;
   isPasswordOk = false;
@@ -130,3 +130,5 @@ resetBtn.onclick = () => {
   ConfInput.classList.remove("is-valid");
   ConfInput.classList.remove("is-invalid");
 }
+
+//warangkana
